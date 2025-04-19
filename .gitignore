@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+log.txt
+*.out
+
+# dotenv environment files
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage and build
+coverage/
+build/
+dist/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# GitHub Actions temporary files
+.github/workflows/*.bak

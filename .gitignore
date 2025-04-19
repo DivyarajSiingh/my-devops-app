@@ -38,3 +38,7 @@ docker-compose.override.yml
 
 # GitHub Actions temporary files
 .github/workflows/*.bak
+
+
+# Terraform
+.terraform

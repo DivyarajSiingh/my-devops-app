@@ -23,3 +23,9 @@ jobs:
 
       - name: Lint Check
         run: echo "No linter setup yet"
+
+      - name: Notify Slack
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data '{"text":"Deployment complete!"}' \
+          ${{ secrets.SLACK_WEBHOOK }}
